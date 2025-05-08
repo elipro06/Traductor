@@ -55,7 +55,7 @@ st.markdown('<h1>🧙‍♂️ Traductor Mágico</h1>', unsafe_allow_html=True)
 st.subheader("¡Habla y deja que la magia de los idiomas ocurra!")
 
 try:
-    image = Image.open("traductor.png")
+    image = Image.open("traductor.jpg")
     st.image(image, caption='¡Diviértete con tus traducciones!', use_column_width=True)
 except:
     st.warning("No se encontró la imagen 'traductor.png'.")
